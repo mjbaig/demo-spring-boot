@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: demospringapp
+  profiles:
+    active: local
+
+server:
+  servlet:
+    context-path: /demo
+  port: 8080
+  compression:
+    enable: true
+    mime-types: application/json
+    min-response-size: 1024
